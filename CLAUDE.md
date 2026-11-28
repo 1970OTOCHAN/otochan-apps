@@ -28,11 +28,11 @@
 - 1ページで、スマホは1列、パソコンは自動で並ぶカード（最小350px、最大幅1800px）
 - グループと順番
   1. 旅の計画・ルート動画：Route Animator Enkel™ ／ ツーリング行程表メーカー
-  2. 走る・歩くときに：Moto Meter Samlet™ ／ 勾配メーター ／ 1970otochan™clock ／ 1970otochan™clock ALT
+  2. 走る・歩くときに：Moto Meter Samlet™ ／ Moto Meter V™ ／ 勾配メーター ／ 1970otochan™clock ／ 1970otochan™clock ALT
   3. 空と山を見る：Hinode Hunter!!™ ／ 富士山スコープ™ ／ やまスコープ™
   4. 巡る・訪ねる：名城マップ ／ 寺巡礼マップ ／ 五街道宿場町巡礼マップ
 - 各カード右側におすすめ環境のチップ（Enkel=パソコン／行程表・clock・3つのマップ=パソコン+スマホ／ほか=スマホ）。冒頭に「パソコンはWindows 11で動作確認しています。」
-- ™は Enkel、Samlet、clock、clock ALT、Hinode Hunter!!、富士山スコープ、やまスコープ のみ
+- ™は Enkel、Samlet、Moto Meter V、clock、clock ALT、Hinode Hunter!!、富士山スコープ、やまスコープ のみ
 - 英語名のアプリだけ、語ごとに真上にフリガナ（ALT＝オルト）。日本語名には付けない
 - 説明文は1行。各カード右下に48pxの角丸アイコン（画像はindex.htmlに埋め込み）
 - Enkel はスマホ・タブレットでは押せない（端末判定で「パソコンで開いてください」と表示）
@@ -42,12 +42,14 @@
 - アクセス数の計測：Cloudflare Web Analytics（ほかのアプリと同じ計測コード）を index.html の最後に入れた。sw.js はほかのサイトへの通信を保存しない
 - 下に利用条件・免責の文と「© 2026 1970 OTOCHAN. All rights reserved.」
 - Ver.1.1（2026-11-25）：ダークモードの仕組みを外し、スマホの設定に関係なくいつも明るい見た目にした（color-scheme: light）。パソコンで画面の幅が狭いと「無料」が題名の下に落ちていたので、題名＋「無料」を1行に固定し、画面の幅に合わせて文字と「無料」の大きさが一緒に変わるようにした
+- Ver.1.2（2026-11-28）：Moto Meter V™ を Samlet の下に追加（フリガナ「モト メーター ブイ」、スマホ）。名前の横に小さく「※Vストローム250オーナー向け」、「開く」の横に小さく（9px）「Vストロームはスズキ株式会社の登録商標です。／スズキ株式会社とは関係のない非公式アプリです。」。速度を隠すボタンのことは書かない
 
 ## アプリのアドレス
 
 - Enkel https://1970otochan-route-animator-enkel.netlify.app
 - 行程表 https://1970otochan-touring-koteihyo-maker.netlify.app
 - Samlet https://1970otochan.github.io/moto-samlet/
+- Moto Meter V https://1970otochan.github.io/moto-meter-v/
 - 勾配メーター https://1970otochan.github.io/koubai-meter/
 - clock https://1970otochan.github.io/otochan-clock/
 - clock ALT https://1970otochan.github.io/otochan-clock-alt/
